@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Lorenzo Andreasi</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Lorenzo Andreasi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-IT</language>
+    <lastBuildDate>Fri, 05 May 2023 07:07:07 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homelab struggle, parte 2 - OS</title>
+      <link>http://localhost:1313/posts/11---homelab-struggle-parte-2/</link>
+      <pubDate>Fri, 05 May 2023 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/11---homelab-struggle-parte-2/</guid>
+      <description>L&amp;rsquo;ultima volta abbiamo parlato di come ho acquistato un server perfetto per me a poco, oggi parleremo della configurazione che ho eseguito.
+Dopo aver costruito il mio rack verticale mi sono posto l&amp;rsquo;interrogativo di quale OS dovessi utilizzare:
+Quale OS? Un utente meno esperto potrebbe pensare che l&amp;rsquo; unica scelta possibile sia quella di utilizzare una distribuzione di linux headless, come ubuntu server, non è una scelta sbagliata, ma ce ne sono sicuramente di migliori.</description>
+    </item>
+    <item>
+      <title>Homelab struggle, parte 1</title>
+      <link>http://localhost:1313/posts/10---homelab-struggle-parte-1/</link>
+      <pubDate>Thu, 27 Apr 2023 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/10---homelab-struggle-parte-1/</guid>
+      <description>Hardware Il sogno di qualsiasi nerd che rispetti è quello di scendere in garage ed assere accolti da un trionfo di lucine ed un mormorio di ventole degno di un datacenter dell&amp;rsquo;NSA. Tuttavia, non tutti hanno un budget che permetta di acquistare una decina di server e buttarli in garage. Quindi con una serie di articoli ho deciso di raccontarvi il percorso di un neofita in questo mondo, step by step.</description>
+    </item>
+    <item>
+      <title>Il metodo Monte Carlo</title>
+      <link>http://localhost:1313/posts/09---il-metodo-monte-carlo/</link>
+      <pubDate>Tue, 17 May 2022 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/09---il-metodo-monte-carlo/</guid>
+      <description>E come ti può tornare utile Il metodo Monte Carlo è un modo per risolvere problemi in informatica. Consiste banalmente nell&amp;rsquo;utilizzare la causalità come punto di partenza per risolvere un problema.
+Immagina di star giocando a battaglia navale: per trovare la nave nemica dovrai scegliere a caso una casella nel tabellone fin quando non colpirai qualcosa. Solo nel momento in cui colpirai una nave nemica puoi cominciare ad applicare una logica che ti permetta di affondarla del tutto.</description>
+    </item>
+    <item>
+      <title>Perché il tuo computer non sa fare i calcoli</title>
+      <link>http://localhost:1313/posts/08---perch%C3%A8-il-tuo-computer-non-sa-fare-calcoli/</link>
+      <pubDate>Thu, 28 Apr 2022 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/08---perch%C3%A8-il-tuo-computer-non-sa-fare-calcoli/</guid>
+      <description>0.1 + 0.2 != 0.3 Il titolo di questo articolo potrebbe sembrarti strano, 0.1 + 0.2 è un calcolo semplice, che anche un bambino saprebbe fare, figuriamoci un computer! Tuttavia ti invito a fare questa prova: premi il tasto F12, apri la console e digita 0.1 + 0.2 il risultato di questa operazione sarà 0.30000000000000004. Sicuramente un aneddoto divertente, ma perchè si verifica questo fenomeno?
+Iniziamo col dire che i computer per loro natura sanno solo immagazzinare numeri interi come 1, 69 o 420 quindi per rappresentare i numeri decimali si usa la tecnica del floating point che non è sempre perfettamente accurata.</description>
+    </item>
+    <item>
+      <title>Prisma, la soluzione definitiva per i database</title>
+      <link>http://localhost:1313/posts/07---prisma-la-soluzione-definitiva-per-i-database/</link>
+      <pubDate>Sun, 02 Jan 2022 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/07---prisma-la-soluzione-definitiva-per-i-database/</guid>
+      <description>I database si distinguono in due grandi categorie: relazionali e non relazionali. I primi si distinguono per la loro capacità di mantenere ordinati ed integri i dati, a discapito della flessibilità. I secondi ci permettono di interagire col database senza nessun DBMS che ci &amp;ldquo;sgridi&amp;rdquo; quando facciamo qualche cappellata. Quindi, se vogliamo dei database affidabili dobbiamo rinunciare alla flessibilità? Con prisma no. Prisma è un tool per JavaScript e Go che ci permette di creare ed interagire con i nostri database con facilità, guidandoci dalla creazione dello schema, alla popolazione, al recupero dei dati.</description>
+    </item>
+    <item>
+      <title>Uptime Kuma, il monitoring fatto semplice</title>
+      <link>http://localhost:1313/posts/05---uptime-kuma-il-monitoring-fatto-semplice/</link>
+      <pubDate>Thu, 11 Nov 2021 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/05---uptime-kuma-il-monitoring-fatto-semplice/</guid>
+      <description>Se sei uno smanettone spesso ti sarà capitato di voler monitorare una serie di servizi web in modo veloce. Questo concetto si applica anche sei sei un sysadmin o hai la necessità di tenere traccia dell&amp;rsquo;uptime dei tuoi o altri servizi. Esistono una serie di soluzioni per risolvere questo problema, ma nessuna è semplice e veloce come Uptime Kuma! Uptime Kuma è un monitoring tool che può essere self-hostato, open source, moderno ed incredibilmente semplice da configurare.</description>
+    </item>
+    <item>
+      <title>Bonsai, il browser senza distrazioni</title>
+      <link>http://localhost:1313/posts/04---bonsai-il-browser-senza-distrazioni/</link>
+      <pubDate>Mon, 18 Oct 2021 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/04---bonsai-il-browser-senza-distrazioni/</guid>
+      <description>Bonsai è un browser web gratuito (ma non open source) che un obbiettivo: essere il browser perfetto per le ricerche. Ma che caratteristiche deve avere un prodotto del genere?
+Deve essere veloce, con scorciatoie da tastiera per compiere operazioni ed essere richiamato al volo Deve avere un&amp;rsquo;interfaccia semplice Deve permettermi di organizzare le schede Tutte queste caratteristiche sono presenti in Bonsai. Bonsai si apre con una semplice scorciatoia da tastiera (alt + spazio) e ci presenta subito un&amp;rsquo;interfaccia semplice e pulita.</description>
+    </item>
+    <item>
+      <title>Syncthing</title>
+      <link>http://localhost:1313/posts/03---syncthing/</link>
+      <pubDate>Sat, 16 Oct 2021 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/03---syncthing/</guid>
+      <description>La soluzione definitiva per sincronizzare i tuoi file Syncthing è un software open source che ti permette di creare delle cartelle sincronizzate tra più dispositivi. E&amp;rsquo; scritto in go ed è ovviamente open source. Presenta una serie di punti di forza, tra cui:
+Sincronizzazione peer-to-peer: questo vuol dire che non hai bisogno di nessun server centrale, bastano 2 o più dispositivi dove sincronizzare la tua cartella. Questo vuol dire che i file sono solo sui tuoi dispositivi Criptografia: come descritto sul loro sito tutti i file sono criptografati prima di essere mandati su internet per la sincronizzazione.</description>
+    </item>
+    <item>
+      <title>MacOS for dummies</title>
+      <link>http://localhost:1313/posts/02--macos-for-dummies/</link>
+      <pubDate>Fri, 15 Oct 2021 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/02--macos-for-dummies/</guid>
+      <description>Ovvero, come rendere MacOS usabile Ciao, in questo breve articolo voglio consigliarti alcune della app che trovo essenziali sul mio MackBook pro 13 pollici con processore M1 del 2020. Premetto che molte delle app che elencherò sono open source perchè come tutti sappiamo, libero è meglio!
+Un po&amp;rsquo; di ordine! La prima app che ti voglio consigliare è Rectangle, un widows manager che ci permette di gestire le nostre mille finestre sia tramite le comode scorciatoie da tastiera sia con le così dette snap areas che non fanno altro che &amp;ldquo;copiare&amp;rdquo; il comportamento delle finestre di windows.</description>
+    </item>
+    <item>
+      <title>Come ho creato il mio portfolio</title>
+      <link>http://localhost:1313/posts/01---come-ho-creato-questo-sito/</link>
+      <pubDate>Thu, 14 Oct 2021 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/01---come-ho-creato-questo-sito/</guid>
+      <description>L&amp;rsquo;idea Ho preso inspirazione dal sito del podcast pressappoco di Riccardo Palombo, tuttavia il sito è stato sviluppato con tecnologie diverse, e sopratutto con un utilizzo intelligente ed innovativo di github
+Lo stile Il sito su desktop è strutturato come una pergamena, dove in successione dall&amp;rsquo;ultimo al primo troverai tutti i miei articoli. Sulla sinistra è presente una sezione fissa con le mie info ed una breve presentazione.
+Su mobile invece il design è orientato verso una esperienza più user-friendly possibile per non sacrificare l&amp;rsquo;usabilità.</description>
+    </item>
+  </channel>
+</rss>

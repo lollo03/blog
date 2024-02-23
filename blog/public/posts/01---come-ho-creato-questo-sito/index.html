@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Come ho creato il mio portfolio | Lorenzo Andreasi</title>
+<meta name="keywords" content="">
+<meta name="description" content="L&rsquo;idea Ho preso inspirazione dal sito del podcast pressappoco di Riccardo Palombo, tuttavia il sito è stato sviluppato con tecnologie diverse, e sopratutto con un utilizzo intelligente ed innovativo di github
+Lo stile Il sito su desktop è strutturato come una pergamena, dove in successione dall&rsquo;ultimo al primo troverai tutti i miei articoli. Sulla sinistra è presente una sezione fissa con le mie info ed una breve presentazione.
+Su mobile invece il design è orientato verso una esperienza più user-friendly possibile per non sacrificare l&rsquo;usabilità.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/01---come-ho-creato-questo-sito/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/01---come-ho-creato-questo-sito/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Lorenzo Andreasi (Alt + H)">Lorenzo Andreasi</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://www.lolloandr.com/" title="Portfolio">
+                    <span><i class="fa fa-heart"></i>Portfolio</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.lolloandr.com/Yathzee-board/" title="Yathzee">
+                    <span><i class="fa fa-heart"></i>Yathzee</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Come ho creato il mio portfolio
+    </h1>
+    <div class="post-meta"><span title='2021-10-14 07:07:07 +0100 +0100'>October 14, 2021</span>&nbsp;·&nbsp;2 min
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="lidea">L&rsquo;idea<a hidden class="anchor" aria-hidden="true" href="#lidea">#</a></h2>
+<p>Ho preso inspirazione dal sito del podcast <a href="https://pressappoco.it">pressappoco</a> di <strong>Riccardo Palombo</strong>, tuttavia il sito è stato sviluppato con tecnologie diverse, e sopratutto con un utilizzo intelligente ed innovativo di <strong>github</strong></p>
+<h2 id="lo-stile">Lo stile<a hidden class="anchor" aria-hidden="true" href="#lo-stile">#</a></h2>
+<p>Il sito <strong>su desktop</strong> è strutturato come una pergamena, dove in successione <strong>dall&rsquo;ultimo al primo</strong> troverai tutti i miei articoli. Sulla sinistra è presente una sezione fissa con le mie info ed una breve presentazione.</p>
+<p>Su <strong>mobile</strong> invece il design è orientato verso una esperienza più user-friendly possibile per non sacrificare l&rsquo;usabilità.</p>
+<h2 id="la-tecnica">La tecnica<a hidden class="anchor" aria-hidden="true" href="#la-tecnica">#</a></h2>
+<p>Il cuore pulsante del sito è rappresentato dal suo repository di <strong>github</strong>, non solo perchè il sito è hostato da gh-pages, ma anche perchè github assume una funzione di gestione degli articoli, ti spiego meglio&hellip;</p>
+<p>Il <a href="https://github.com/lollo03/lollo03.github.io">repository</a> è diviso in tre rami:</p>
+<ul>
+<li>master</li>
+<li>gh-pages</li>
+<li>articles</li>
+</ul>
+<p>Sul <strong>master</strong> è presente il sorgente scritto in <strong>vue</strong> che viene automaticamente compilato da una <strong>github actions</strong> dopo ogni push sul branch. Questa github action compila il progetto vue in una serie di file <strong>statici</strong> che vengono sposati sulla branch <strong>gh-pages</strong>.</p>
+<p>Ogni volta che il sito viene visitato viene fatta una richiesta alle <strong>api</strong> di github per recuperare tutti gli articoli (divisi in singoli file <em>.md</em>) dalla brench <strong>articles</strong>. Quindi per modificare/aggiungere un articolo pasta effettuare un <em>commit</em> su questa brench.</p>
+<h2 id="quali-saranno-i-prossimi-passi">Quali saranno i prossimi passi?<a hidden class="anchor" aria-hidden="true" href="#quali-saranno-i-prossimi-passi">#</a></h2>
+<p>Il sito è da considerare ancora in <strong>beta</strong>, ci sono una serie di aspetti da completare, come:</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Cambiare i colori della day-mode</li>
+<li><input checked="" disabled="" type="checkbox"> Rivedere i font</li>
+<li><input checked="" disabled="" type="checkbox"> Inserire ulteriori animazioni</li>
+<li><input checked="" disabled="" type="checkbox"> Inserire una ricerca</li>
+</ul>
+<p>Se sei curioso da un&rsquo;occhiata al codice del progetto su <a href="https://github.com/lollo03/lollo03.github.io">github</a> e se ritieni il progetto interessante non dimenticare di lasciare una ⭐️!</p>
+<p><strong>Update Lun 18 ottobre 2021</strong>:
+Finalmente ho inserito una ricerca tramite un libreria chiamata <a href="https://fusejs.io">fuse.js</a>, che consiglio caldamente. Il prossimo step sarà ottimizzare l&rsquo;operazione di recupero degli articoli, in modo da rendere il tutto più veloce.</p>
+<p><strong>Update Ven 23 febbraio 2023</strong>:
+Ho deciso di separare il blog dal portfolio. Il blog è sempre hostato su github pages usando <a href="https://gohugo.io/">hugo</a>.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="http://localhost:1313/">Lorenzo Andreasi</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

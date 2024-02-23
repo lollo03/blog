@@ -1,0 +1,47 @@
+baseURL: "https://blog.lolloandr.com/"
+languageCode: "it-IT"
+title: "Lorenzo Andreasi"
+theme: "PaperMod"
+sectionPagesMenu: main
+menus:
+  main:
+    - name: Portfolio
+      params:
+        rel: external
+      pre: <i class="fa fa-heart"></i>
+      url: https://www.lolloandr.com/
+      weight: 30
+    - name: Yathzee
+      params:
+        rel: external
+      pre: <i class="fa fa-heart"></i>
+      url: https://www.lolloandr.com/Yathzee-board/
+      weight: 30
+
+params:
+  homeInfoParams:
+    Title: Ciao 👋
+    Content: Benvenuto nel nuovo blog
+
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/lollo03"
+    - name: "instagram"
+      url: "https://www.instagram.com/lolloandr/"
+  outputs:
+    home:
+      - HTML
+      - RSS
+      - JSON # necessary for search
+
+  defaultTheme: auto
+  ShowReadingTime: true
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
