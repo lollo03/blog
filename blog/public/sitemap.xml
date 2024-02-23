@@ -2,46 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/11---homelab-struggle-parte-2/</loc>
+    <loc>http://localhost:1313/blog/posts/11---homelab-struggle-parte-2/</loc>
     <lastmod>2023-05-05T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2023-05-05T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/blog/posts/</loc>
     <lastmod>2023-05-05T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/10---homelab-struggle-parte-1/</loc>
+    <loc>http://localhost:1313/blog/posts/10---homelab-struggle-parte-1/</loc>
     <lastmod>2023-04-27T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/09---il-metodo-monte-carlo/</loc>
+    <loc>http://localhost:1313/blog/posts/09---il-metodo-monte-carlo/</loc>
     <lastmod>2022-05-17T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/08---perch%C3%A8-il-tuo-computer-non-sa-fare-calcoli/</loc>
+    <loc>http://localhost:1313/blog/posts/08---perch%C3%A8-il-tuo-computer-non-sa-fare-calcoli/</loc>
     <lastmod>2022-04-28T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/07---prisma-la-soluzione-definitiva-per-i-database/</loc>
+    <loc>http://localhost:1313/blog/posts/07---prisma-la-soluzione-definitiva-per-i-database/</loc>
     <lastmod>2022-01-02T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/05---uptime-kuma-il-monitoring-fatto-semplice/</loc>
+    <loc>http://localhost:1313/blog/posts/05---uptime-kuma-il-monitoring-fatto-semplice/</loc>
     <lastmod>2021-11-11T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/04---bonsai-il-browser-senza-distrazioni/</loc>
+    <loc>http://localhost:1313/blog/posts/04---bonsai-il-browser-senza-distrazioni/</loc>
     <lastmod>2021-10-18T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/03---syncthing/</loc>
+    <loc>http://localhost:1313/blog/posts/03---syncthing/</loc>
     <lastmod>2021-10-16T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/02--macos-for-dummies/</loc>
+    <loc>http://localhost:1313/blog/posts/02--macos-for-dummies/</loc>
     <lastmod>2021-10-15T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/01---come-ho-creato-questo-sito/</loc>
+    <loc>http://localhost:1313/blog/posts/01---come-ho-creato-questo-sito/</loc>
     <lastmod>2021-10-14T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/blog/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>http://localhost:1313/blog/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/blog/tags/</loc>
   </url>
 </urlset>
