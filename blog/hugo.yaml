@@ -8,15 +8,18 @@ menus:
     - name: Portfolio
       params:
         rel: external
-      pre: <i class="fa fa-heart"></i>
       url: https://www.lolloandr.com/
       weight: 30
     - name: Yathzee
       params:
         rel: external
-      pre: <i class="fa fa-heart"></i>
       url: https://www.lolloandr.com/Yathzee-board/
       weight: 30
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 params:
   Description: "Il blog di Lorenzo Andreasi"
@@ -25,17 +28,21 @@ params:
     Title: Ciao 👋
     Content: Benvenuto nel nuovo blog
 
-  socialIcons: # optional
+  socialIcons:
+    - name: "site"
+      url: "https://www.lolloandr.com/"
     - name: "github"
       url: "https://github.com/lollo03"
     - name: "instagram"
       url: "https://www.instagram.com/lolloandr/"
+    - name: "telegram"
+      url: "https://t.me/lorenzoandreasi"
   outputs:
     home:
       - HTML
       - RSS
-      - JSON # necessary for search
-
+      - JSON
+  ShowShareButtons: true
   defaultTheme: auto
   ShowReadingTime: true
   fuseOpts:
