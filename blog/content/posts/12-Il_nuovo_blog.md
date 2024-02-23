@@ -74,10 +74,13 @@ Ogni articolo è un file **markdown** preceduto da un piccolo blocco di configur
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jNQXAC9IVRw?si=sr996lEuBh054Iuw" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Data di oggi ricavata tramite javascript: <span id="demo"></span>
+Ora attuale ricavata tramite javascript: <span id="demo"></span>
 
-<script>    
-document.getElementById("demo").innerHTML = new Date().toLocaleDateString()
+<script>
+setInterval(function(){
+  let date = new Date();
+  document.getElementById("demo").innerHTML = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
+}, 1000);
 </script>
 
 <h4 class=wow>WOW!</h4>

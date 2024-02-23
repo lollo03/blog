@@ -6,8 +6,17 @@
     <description>Recent content in Posts on Lorenzo Andreasi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-IT</language>
-    <lastBuildDate>Fri, 23 Feb 2024 14:40:06 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 23 Feb 2024 16:16:31 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monitoraggio qualità dell&#39;aria on a budget</title>
+      <link>http://localhost:1313/blog/posts/13-air-monitoring/</link>
+      <pubDate>Fri, 23 Feb 2024 16:16:31 +0100</pubDate>
+      <guid>http://localhost:1313/blog/posts/13-air-monitoring/</guid>
+      <description>L&amp;rsquo;aria è un qualcosa con cui interagiamo ogni giorno ma non ci facciamo caso. Nelle nostre case creiamo veri e propri microclimi e se passiamo tanto tempo in una stanza può essere utile misurare la qualità dell&amp;rsquo;aria per capire quando è necessario arieggiare.
+Nell&amp;rsquo;articolo di oggi voglio proporvi due soluzioni economiche per controllare questi parametri ed imparare qualcosa di nuovo.
+IKEA VINDRIKTNING Sappiamo tutti quanto può essere divertente (ed a volte anche conveniente economicamente!</description>
+    </item>
     <item>
       <title>Il nuovo blog, hugo e static site generation</title>
       <link>http://localhost:1313/blog/posts/12-il_nuovo_blog/</link>
