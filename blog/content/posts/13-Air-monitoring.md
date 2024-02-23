@@ -1,7 +1,7 @@
 +++
 title = "Monitoraggio qualità dell'aria on a budget"
 date = 2024-02-23T16:16:31+01:00
-draft = true
+draft = false
 +++
 
 L'aria è un qualcosa con cui interagiamo ogni giorno ma non ci facciamo caso. Nelle nostre case creiamo veri e propri microclimi e se passiamo tanto tempo in una stanza può essere utile misurare la qualità dell'aria per capire quando è necessario arieggiare.
