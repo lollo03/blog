@@ -19,6 +19,8 @@ menus:
       weight: 30
 
 params:
+  Description: "Il blog di Lorenzo Andreasi"
+
   homeInfoParams:
     Title: Ciao 👋
     Content: Benvenuto nel nuovo blog
