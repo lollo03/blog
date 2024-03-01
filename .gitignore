@@ -1,4 +1,3 @@
-blog/public/*
-
+blog/public/** 
 
 .vscode/settings.json
