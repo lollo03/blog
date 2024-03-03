@@ -6,8 +6,16 @@
     <description>Recent content on Lorenzo Andreasi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-IT</language>
-    <lastBuildDate>Fri, 01 Mar 2024 23:46:48 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 03 Mar 2024 22:02:05 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I use Arch (btw) - parte 2</title>
+      <link>http://localhost:1313/blog/posts/15-arch-pt2/</link>
+      <pubDate>Sun, 03 Mar 2024 22:02:05 +0100</pubDate>
+      <guid>http://localhost:1313/blog/posts/15-arch-pt2/</guid>
+      <description>L&amp;rsquo;inizio della fine Come detto precedentemente ho deciso di installare Arch Linux. I motivi che mi hanno spinto ad effettuare questa decisione sono:
+estrema possibilità di personalizzazione voglia di provare una distro che non avevo mai usato difficoltà del processo di installazione Capisco che potreste essere confusi: che vantaggio c&amp;rsquo;è in una distribuzione difficile da installare? Semplice, che sei costretto a capire cosa stai facendo. Come detto nel precedente articolo questo viaggio è iniziato dalla mia voglia di imparare linux, quindi ho pensato che mettermi subito alla prova fosse la cosa più corretta!</description>
+    </item>
     <item>
       <title>I use Arch (btw) - parte 1</title>
       <link>http://localhost:1313/blog/posts/14-arch-pt1/</link>
