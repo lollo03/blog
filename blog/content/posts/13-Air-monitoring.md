@@ -10,6 +10,10 @@ Nell'articolo di oggi voglio proporvi due soluzioni economiche per controllare q
 
 ## IKEA VINDRIKTNING
 
+![foto sensore](https://www.ikea.com/it/it/images/products/vindriktning-sensore-della-qualita-dellaria__1073150_ph177967_s5.jpg?f=l)
+
+> Fonte foto: Sito IKEA
+
 Sappiamo tutti quanto può essere divertente (ed a volte anche conveniente economicamente!) modificare un prodotto già pronto per aggiungere funzionalità. Un esempio è quello dell'[IKEA VINDRIKTNING](https://www.ikea.com/it/it/p/vindriktning-sensore-della-qualita-dellaria-80515910/) un sensore di **PM 2.5** che possiamo comprare a 9,95 €
 
 I [PM 2.5](https://it.wikipedia.org/wiki/PM_2.5) sono una famiglia di polveri sottili di dimensione minori o uguali ai 2,5 micron
@@ -26,9 +30,11 @@ Cosa stavo facendo per far alzare così tanto il livello di PM25? Semplice, stav
 
 Il sensore IKEA VINDRIKTNING ci mostra lo stato delle polveri sottili tramite 3 led posti sulla parte anteriore del prodotto:
 
-![foto sensore](https://www.ikea.com/it/it/images/products/vindriktning-sensore-della-qualita-dellaria__1073150_ph177967_s5.jpg?f=l)
 
-> Fonte foto: Sito IKEA
+
+![Sensore dopo la modifica](/blog/sensore_1.jpeg)
+
+> Sensore dopo la modifica
 
 Tuttavia il sensore non è capace di loggare o condividere le sue misurazioni. Come ho fatto a rendere questo prodotto utile per i miei scopi?
 
@@ -76,3 +82,12 @@ In futuro proverò a combinare entrambi i sensori facendoli entrare nella scocca
 Inoltre, aggiornerò l'api per inviarmi delle notifiche quando la qualità scende al di sotto di una certa qualità.
 
 Se vuoi rimanere aggiornato ti invito a seguirmi su github e mettere un _watch_ al [repository](https://github.com/lollo03/IKEA-VINDRIKTNING-mod-by-Lollo) per non perderti aggiornamenti.
+
+
+## Update 
+
+Ho "fuso" insieme i due sensori ottenendo questo risultato:
+
+![Sensore dopo la modifica](/blog/sensore_1.jpeg)
+
+Non male, vero?
