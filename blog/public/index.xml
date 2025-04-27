@@ -6,122 +6,200 @@
     <description>Recent content on Lorenzo Andreasi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-IT</language>
-    <lastBuildDate>Sun, 03 Mar 2024 22:02:05 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 28 Mar 2025 17:15:23 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>POuL - Corso home lab 2025</title>
+      <link>http://localhost:1313/blog/posts/17-homelab-corso/</link>
+      <pubDate>Fri, 28 Mar 2025 17:15:23 +0200</pubDate>
+      <guid>http://localhost:1313/blog/posts/17-homelab-corso/</guid>
+      <description>&lt;p&gt;I have just completed the second day of the home lab course I conducted for &lt;a href=&#34;https://poul.org/&#34;&gt;POuL&lt;/a&gt;. The course is in Italian and consists of three days, with the first two led by me.&lt;/p&gt;
+&lt;p&gt;Here are the videos of the sessions along with the slides.&lt;/p&gt;
+&lt;h2 id=&#34;day-1&#34;&gt;Day 1&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/XOUPMY81rnQ?si=Jp-3UbeIur1W7Xry&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href=&#34;https://slides.poul.org/2025/homelab/homelab101/&#34;&gt;slides&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;day-2&#34;&gt;Day 2&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/tgl-Oo65uE4?si=iOxVI56IF2UpfTqs&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href=&#34;https://slides.poul.org/2025/homelab/docker/&#34;&gt;slides&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;day-3&#34;&gt;Day 3&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/794TZYSN114?si=1wtZY5rl0UglffNX&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href=&#34;https://slides.poul.org/2025/homelab/homelab-to-production/&#34;&gt;slides&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Un nuovo approccio al self-hosting: purpose-built hardware e NixOS</title>
+      <link>http://localhost:1313/blog/posts/16-nixos-linuxday/</link>
+      <pubDate>Sat, 26 Oct 2024 13:45:00 +0200</pubDate>
+      <guid>http://localhost:1313/blog/posts/16-nixos-linuxday/</guid>
+      <description>&lt;p&gt;On October 26th, 2024, during the &lt;a href=&#34;https://linuxdaymilano.org/&#34;&gt;Linux Day in Milan&lt;/a&gt;, I spoke for the first time in front of an audience about a topic I am particularly passionate about: self-hosting.&lt;/p&gt;
+&lt;p&gt;Below, you can find the abstract of the talk, along with the video and slides.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;The goal of the talk is to present a new perspective on self-hosting to an audience already familiar with the topic. After introducing the reasons for &amp;ldquo;self-hosting,&amp;rdquo; the talk will touch on some upcoming products marketed as &amp;ldquo;single board servers,&amp;rdquo; that is, single board computers with a focus on networking and expanded connectivity features.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>I use Arch (btw) - parte 2</title>
       <link>http://localhost:1313/blog/posts/15-arch-pt2/</link>
       <pubDate>Sun, 03 Mar 2024 22:02:05 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/15-arch-pt2/</guid>
-      <description>L&amp;rsquo;inizio della fine Come detto precedentemente ho deciso di installare Arch Linux. I motivi che mi hanno spinto ad effettuare questa decisione sono:
-estrema possibilità di personalizzazione voglia di provare una distro che non avevo mai usato difficoltà del processo di installazione Capisco che potreste essere confusi: che vantaggio c&amp;rsquo;è in una distribuzione difficile da installare? Semplice, che sei costretto a capire cosa stai facendo. Come detto nel precedente articolo questo viaggio è iniziato dalla mia voglia di imparare linux, quindi ho pensato che mettermi subito alla prova fosse la cosa più corretta!</description>
+      <description>&lt;h2 id=&#34;linizio-della-fine&#34;&gt;L&amp;rsquo;inizio della fine&lt;/h2&gt;
+&lt;p&gt;Come detto &lt;a href=&#34;https://www.lolloandr.com/blog/posts/14-arch-pt1/&#34;&gt;precedentemente&lt;/a&gt; ho deciso di installare &lt;a href=&#34;https://archlinux.org/&#34;&gt;Arch Linux&lt;/a&gt;. I motivi che mi hanno spinto ad effettuare questa decisione sono:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;estrema possibilità di &lt;strong&gt;personalizzazione&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;voglia di provare una distro che non avevo mai usato&lt;/li&gt;
+&lt;li&gt;difficoltà del processo di installazione&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Capisco che potreste essere confusi: che vantaggio c&amp;rsquo;è in una distribuzione difficile da installare? Semplice, che sei costretto a &lt;strong&gt;capire cosa stai facendo&lt;/strong&gt;. Come detto nel precedente articolo questo viaggio è iniziato dalla mia voglia di imparare linux, quindi ho pensato che mettermi subito alla prova fosse la cosa più corretta!&lt;/p&gt;</description>
     </item>
     <item>
       <title>I use Arch (btw) - parte 1</title>
       <link>http://localhost:1313/blog/posts/14-arch-pt1/</link>
       <pubDate>Fri, 01 Mar 2024 23:46:48 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/14-arch-pt1/</guid>
-      <description>Prologo Autoconvincersi di avere la necessità di qualcosa è una mia specialità. Devo ammettere che non è da tutti trovare &amp;ldquo;scuse&amp;rdquo; per sentirsi bene con se stessi.
-E&amp;rsquo; così che nascono la maggior parte dei weekend project che mi tengono impegnato per mesi.
-Questa storia comincia nell&amp;rsquo;attimo in cui mi sono detto &amp;ldquo;voglio imparare ad usare linux&amp;rdquo;. Ma per davvero!
-Come ho già scritto in altri post uso già una distribuzione di linux (in particolare Ubuntu server) nel mio homelab.</description>
+      <description>&lt;h3 id=&#34;prologo&#34;&gt;Prologo&lt;/h3&gt;
+&lt;p&gt;Autoconvincersi di avere la necessità di qualcosa è una mia specialità. Devo ammettere che non è da tutti trovare &amp;ldquo;scuse&amp;rdquo; per sentirsi bene con se stessi.&lt;/p&gt;
+&lt;p&gt;E&amp;rsquo; così che nascono la maggior parte dei &lt;em&gt;weekend project&lt;/em&gt; che mi tengono impegnato per mesi.&lt;/p&gt;
+&lt;p&gt;Questa storia comincia nell&amp;rsquo;attimo in cui mi sono detto &amp;ldquo;voglio imparare ad usare &lt;strong&gt;linux&lt;/strong&gt;&amp;rdquo;. Ma per davvero!&lt;/p&gt;
+&lt;p&gt;Come ho già scritto in altri &lt;a href=&#34;https://www.lolloandr.com/blog/posts/11---homelab-struggle-parte-2/&#34;&gt;post&lt;/a&gt; uso già una distribuzione di linux (in particolare Ubuntu server) nel mio homelab. Nonostante mi sappia muovere nella shell e fare operazioni elementari riconosco di non saper come &lt;strong&gt;funziona&lt;/strong&gt; veramente linux. Voglio poter sperimentare per davvero, capire le differenze tra i vari window manager, desktop enviroment, sperimentare con diverse distro, modificare il kernel&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Monitoraggio qualità dell&#39;aria on a budget</title>
       <link>http://localhost:1313/blog/posts/13-air-monitoring/</link>
       <pubDate>Fri, 23 Feb 2024 16:16:31 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/13-air-monitoring/</guid>
-      <description>L&amp;rsquo;aria è un qualcosa con cui interagiamo ogni giorno ma non ci facciamo caso. Nelle nostre case creiamo veri e propri microclimi e se passiamo tanto tempo in una stanza può essere utile misurare la qualità dell&amp;rsquo;aria per capire quando è necessario arieggiare.
-Nell&amp;rsquo;articolo di oggi voglio proporvi due soluzioni economiche per controllare questi parametri ed imparare qualcosa di nuovo.
-IKEA VINDRIKTNING Fonte foto: Sito IKEA
-Sappiamo tutti quanto può essere divertente (ed a volte anche conveniente economicamente!</description>
+      <description>&lt;p&gt;L&amp;rsquo;aria è un qualcosa con cui interagiamo ogni giorno ma non ci facciamo caso. Nelle nostre case creiamo veri e propri microclimi e se passiamo tanto tempo in una stanza può essere utile misurare la qualità dell&amp;rsquo;aria per capire quando è necessario arieggiare.&lt;/p&gt;
+&lt;p&gt;Nell&amp;rsquo;articolo di oggi voglio proporvi due soluzioni economiche per controllare questi parametri ed imparare qualcosa di nuovo.&lt;/p&gt;
+&lt;h2 id=&#34;ikea-vindriktning&#34;&gt;IKEA VINDRIKTNING&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://www.ikea.com/it/it/images/products/vindriktning-sensore-della-qualita-dellaria__1073150_ph177967_s5.jpg?f=l&#34; alt=&#34;foto sensore&#34;  /&gt;
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Fonte foto: Sito IKEA&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Sappiamo tutti quanto può essere divertente (ed a volte anche conveniente economicamente!) modificare un prodotto già pronto per aggiungere funzionalità. Un esempio è quello dell&amp;rsquo;&lt;a href=&#34;https://www.ikea.com/it/it/p/vindriktning-sensore-della-qualita-dellaria-80515910/&#34;&gt;IKEA VINDRIKTNING&lt;/a&gt; un sensore di &lt;strong&gt;PM 2.5&lt;/strong&gt; che possiamo comprare a 9,95 €&lt;/p&gt;</description>
     </item>
     <item>
       <title>Il nuovo blog, hugo e static site generation</title>
       <link>http://localhost:1313/blog/posts/12-il_nuovo_blog/</link>
       <pubDate>Fri, 23 Feb 2024 14:40:06 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/12-il_nuovo_blog/</guid>
-      <description>Come potete vedere qua ci sono stati dei cambiamenti, la parte di blog sul mio portfolio è stata sostituita da questo nuovo sito. Ma come è stato fatto?
-Quando si pensa a creare un sito web nella nostra mente iniziano a comparire parole come database, wordpress, server, hosting. Sono tutte cose di cui bisogna preoccuparsi prima di poter pensare di creare un nuovo sito. Ma tutto questo è realmente necessario?</description>
+      <description>&lt;p&gt;Come potete vedere qua ci sono stati dei cambiamenti, la parte di blog sul mio &lt;a href=&#34;https://www.lolloandr.com/&#34;&gt;portfolio&lt;/a&gt; è stata sostituita da questo nuovo sito. Ma come è stato fatto?&lt;/p&gt;
+&lt;p&gt;Quando si pensa a creare un sito web nella nostra mente iniziano a comparire parole come &lt;strong&gt;database, wordpress, server, hosting&lt;/strong&gt;. Sono tutte cose di cui bisogna preoccuparsi prima di poter pensare di creare un nuovo sito. Ma tutto questo è realmente necessario?&lt;/p&gt;
+&lt;h2 id=&#34;semplificare-è-meglio&#34;&gt;Semplificare è meglio&lt;/h2&gt;
+&lt;p&gt;Prendiamo l&amp;rsquo;esempio di un blog o di un portfolio. É veramente necessario avere un database? É veramente necessario avere una complessa installazione di wordpress con mille plugin per avere delle funzionalità base? É veramente necessario avere una vps o un container che esegue del codice php o node.js ogni volta che qualcuno vuole vedere una pagina web?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Homelab struggle, parte 2 - OS</title>
       <link>http://localhost:1313/blog/posts/11---homelab-struggle-parte-2/</link>
       <pubDate>Fri, 05 May 2023 07:07:07 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/11---homelab-struggle-parte-2/</guid>
-      <description>L&amp;rsquo;ultima volta abbiamo parlato di come ho acquistato un server perfetto per me a poco, oggi parleremo della configurazione che ho eseguito.
-Dopo aver costruito il mio rack verticale mi sono posto l&amp;rsquo;interrogativo di quale OS dovessi utilizzare:
-Quale OS? Un utente meno esperto potrebbe pensare che l&amp;rsquo; unica scelta possibile sia quella di utilizzare una distribuzione di linux headless, come ubuntu server, non è una scelta sbagliata, ma ce ne sono sicuramente di migliori.</description>
+      <description>&lt;p&gt;L&amp;rsquo;ultima volta abbiamo parlato di come ho acquistato un server perfetto per me a poco, oggi parleremo della configurazione che ho eseguito.&lt;/p&gt;
+&lt;p&gt;Dopo aver costruito il mio &lt;a href=&#34;https://www.reddit.com/r/homelab/comments/133ye33/diy_vertical_rack/&#34;&gt;rack verticale&lt;/a&gt; mi sono posto l&amp;rsquo;interrogativo di quale OS dovessi utilizzare:&lt;/p&gt;
+&lt;h2 id=&#34;quale-os&#34;&gt;Quale OS?&lt;/h2&gt;
+&lt;p&gt;Un utente meno esperto potrebbe pensare che l&amp;rsquo; unica scelta possibile sia quella di utilizzare una distribuzione di linux &lt;a href=&#34;https://en.wikipedia.org/wiki/Headless_software&#34;&gt;&lt;strong&gt;headless&lt;/strong&gt;&lt;/a&gt;, come &lt;strong&gt;ubuntu server&lt;/strong&gt;, non è una scelta sbagliata, ma ce ne sono sicuramente di migliori.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Homelab struggle, parte 1</title>
       <link>http://localhost:1313/blog/posts/10---homelab-struggle-parte-1/</link>
       <pubDate>Thu, 27 Apr 2023 07:07:07 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/10---homelab-struggle-parte-1/</guid>
-      <description>Hardware Il sogno di qualsiasi nerd che rispetti è quello di scendere in garage ed assere accolti da un trionfo di lucine ed un mormorio di ventole degno di un datacenter dell&amp;rsquo;NSA. Tuttavia, non tutti hanno un budget che permetta di acquistare una decina di server e buttarli in garage. Quindi con una serie di articoli ho deciso di raccontarvi il percorso di un neofita in questo mondo, step by step.</description>
+      <description>&lt;h2 id=&#34;hardware&#34;&gt;Hardware&lt;/h2&gt;
+&lt;p&gt;Il sogno di qualsiasi nerd che rispetti è quello di scendere in garage ed assere accolti da un trionfo di lucine ed un mormorio di ventole degno di un datacenter dell&amp;rsquo;NSA. Tuttavia, non tutti hanno un budget che permetta di acquistare una decina di server e buttarli in garage. Quindi con una serie di articoli ho deciso di raccontarvi il percorso di un neofita in questo mondo, step by step.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Il metodo Monte Carlo</title>
       <link>http://localhost:1313/blog/posts/09---il-metodo-monte-carlo/</link>
       <pubDate>Tue, 17 May 2022 07:07:07 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/09---il-metodo-monte-carlo/</guid>
-      <description>E come ti può tornare utile Il metodo Monte Carlo è un modo per risolvere problemi in informatica. Consiste banalmente nell&amp;rsquo;utilizzare la causalità come punto di partenza per risolvere un problema.
-Immagina di star giocando a battaglia navale: per trovare la nave nemica dovrai scegliere a caso una casella nel tabellone fin quando non colpirai qualcosa. Solo nel momento in cui colpirai una nave nemica puoi cominciare ad applicare una logica che ti permetta di affondarla del tutto.</description>
+      <description>&lt;h2 id=&#34;e-come-ti-può-tornare-utile&#34;&gt;E come ti può tornare utile&lt;/h2&gt;
+&lt;p&gt;Il metodo &lt;strong&gt;Monte Carlo&lt;/strong&gt; è un modo per risolvere problemi in informatica. Consiste banalmente nell&amp;rsquo;utilizzare la causalità come punto di partenza per risolvere un problema.&lt;br&gt;
+Immagina di star giocando a &lt;strong&gt;battaglia navale&lt;/strong&gt;: per trovare la nave nemica dovrai scegliere a caso una casella nel tabellone fin quando non colpirai qualcosa. Solo nel momento in cui colpirai una nave nemica puoi cominciare ad applicare una logica che ti permetta di affondarla del tutto. Inconsapevolmente stai usando il metodo Monte Carlo per approcciarti al problema.&lt;br&gt;
+In informatica questo metodo viene usato molto spesso specialmente nei problemi che hanno a che fare con la statistica.&lt;br&gt;
+Tuttavia un esempio interessante e facile da comprendere è quello del calcolo del &lt;strong&gt;pi greco&lt;/strong&gt;. Se sei interessato a saperne di più clicca su &lt;a href=&#34;https://colab.research.google.com/drive/1qapkaGRut91vAauze0y-pHCjoq4quJAz?usp=sharing&#34;&gt;questo&lt;/a&gt; link dove troverai un &lt;em&gt;notebook&lt;/em&gt; scritto da me che ti guiderà passo per passo nella piena comprensione del metodo.&lt;br&gt;
+A presto!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Perché il tuo computer non sa fare i calcoli</title>
       <link>http://localhost:1313/blog/posts/08---perch%C3%A8-il-tuo-computer-non-sa-fare-calcoli/</link>
       <pubDate>Thu, 28 Apr 2022 07:07:07 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/08---perch%C3%A8-il-tuo-computer-non-sa-fare-calcoli/</guid>
-      <description>0.1 + 0.2 != 0.3 Il titolo di questo articolo potrebbe sembrarti strano, 0.1 + 0.2 è un calcolo semplice, che anche un bambino saprebbe fare, figuriamoci un computer! Tuttavia ti invito a fare questa prova: premi il tasto F12, apri la console e digita 0.1 + 0.2 il risultato di questa operazione sarà 0.30000000000000004. Sicuramente un aneddoto divertente, ma perchè si verifica questo fenomeno?
-Iniziamo col dire che i computer per loro natura sanno solo immagazzinare numeri interi come 1, 69 o 420 quindi per rappresentare i numeri decimali si usa la tecnica del floating point che non è sempre perfettamente accurata.</description>
+      <description>&lt;h2 id=&#34;01--02--03&#34;&gt;0.1 + 0.2 != 0.3&lt;/h2&gt;
+&lt;p&gt;Il titolo di questo articolo potrebbe sembrarti strano, 0.1 + 0.2 è un calcolo semplice, che anche un bambino saprebbe fare, &lt;strong&gt;figuriamoci un computer&lt;/strong&gt;! Tuttavia ti invito a fare questa prova: premi il tasto &lt;code&gt;F12&lt;/code&gt;, apri la console e digita &lt;code&gt;0.1 + 0.2&lt;/code&gt; il risultato di questa operazione sarà &lt;code&gt;0.30000000000000004&lt;/code&gt;. Sicuramente un aneddoto divertente, ma &lt;strong&gt;perchè&lt;/strong&gt; si verifica questo fenomeno?&lt;/p&gt;
+&lt;p&gt;Iniziamo col dire che i computer per loro natura sanno solo immagazzinare numeri &lt;a href=&#34;https://it.wikipedia.org/wiki/Numero_intero_(informatica)&#34;&gt;interi&lt;/a&gt; come &lt;strong&gt;1, 69 o 420&lt;/strong&gt; quindi per rappresentare i numeri decimali si usa la tecnica del &lt;em&gt;&lt;a href=&#34;https://it.wikipedia.org/wiki/Numero_in_virgola_mobile&#34;&gt;floating point&lt;/a&gt;&lt;/em&gt; che &lt;strong&gt;non è sempre perfettamente accurata.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Prisma, la soluzione definitiva per i database</title>
       <link>http://localhost:1313/blog/posts/07---prisma-la-soluzione-definitiva-per-i-database/</link>
       <pubDate>Sun, 02 Jan 2022 07:07:07 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/07---prisma-la-soluzione-definitiva-per-i-database/</guid>
-      <description>I database si distinguono in due grandi categorie: relazionali e non relazionali. I primi si distinguono per la loro capacità di mantenere ordinati ed integri i dati, a discapito della flessibilità. I secondi ci permettono di interagire col database senza nessun DBMS che ci &amp;ldquo;sgridi&amp;rdquo; quando facciamo qualche cappellata. Quindi, se vogliamo dei database affidabili dobbiamo rinunciare alla flessibilità? Con prisma no. Prisma è un tool per JavaScript e Go che ci permette di creare ed interagire con i nostri database con facilità, guidandoci dalla creazione dello schema, alla popolazione, al recupero dei dati.</description>
+      <description>&lt;p&gt;I &lt;strong&gt;database&lt;/strong&gt; si distinguono in due grandi categorie: &lt;strong&gt;relazionali&lt;/strong&gt; e &lt;strong&gt;non relazionali&lt;/strong&gt;. I primi si distinguono per la loro capacità di mantenere ordinati ed integri i dati, &lt;strong&gt;a discapito della flessibilità&lt;/strong&gt;. I secondi ci permettono di interagire col database senza nessun &lt;a href=&#34;https://it.wikipedia.org/wiki/Database_management_system&#34;&gt;DBMS&lt;/a&gt; che ci &lt;em&gt;&amp;ldquo;sgridi&amp;rdquo;&lt;/em&gt; quando facciamo qualche cappellata. &lt;br&gt;
+Quindi, se vogliamo dei database affidabili dobbiamo rinunciare alla flessibilità? Con &lt;strong&gt;&lt;a href=&#34;https://www.prisma.io&#34;&gt;prisma&lt;/a&gt;&lt;/strong&gt; no. &lt;br&gt;
+Prisma è un tool per &lt;strong&gt;JavaScript e Go&lt;/strong&gt; che ci permette di &lt;strong&gt;creare ed interagire&lt;/strong&gt; con i nostri database con facilità, guidandoci dalla creazione dello schema, alla popolazione, al recupero dei dati.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Uptime Kuma, il monitoring fatto semplice</title>
       <link>http://localhost:1313/blog/posts/05---uptime-kuma-il-monitoring-fatto-semplice/</link>
       <pubDate>Thu, 11 Nov 2021 07:07:07 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/05---uptime-kuma-il-monitoring-fatto-semplice/</guid>
-      <description>Se sei uno smanettone spesso ti sarà capitato di voler monitorare una serie di servizi web in modo veloce. Questo concetto si applica anche sei sei un sysadmin o hai la necessità di tenere traccia dell&amp;rsquo;uptime dei tuoi o altri servizi. Esistono una serie di soluzioni per risolvere questo problema, ma nessuna è semplice e veloce come Uptime Kuma! Uptime Kuma è un monitoring tool che può essere self-hostato, open source, moderno ed incredibilmente semplice da configurare.</description>
+      <description>&lt;p&gt;Se sei uno &lt;em&gt;smanettone&lt;/em&gt; spesso ti sarà capitato di voler monitorare una serie di servizi web in modo veloce. Questo concetto si applica anche sei sei un &lt;em&gt;sysadmin&lt;/em&gt; o hai la necessità di tenere traccia dell&amp;rsquo;&lt;strong&gt;uptime&lt;/strong&gt; dei tuoi o altri servizi. Esistono una serie di soluzioni per risolvere questo problema, ma nessuna è semplice e veloce come &lt;a href=&#34;https://github.com/louislam/uptime-kuma&#34;&gt;Uptime Kuma&lt;/a&gt;! &lt;br&gt;
+&lt;a href=&#34;https://github.com/louislam/uptime-kuma&#34;&gt;Uptime Kuma&lt;/a&gt; è un &lt;strong&gt;monitoring tool&lt;/strong&gt; che può essere &lt;strong&gt;self-hostato, open source, moderno ed incredibilmente semplice da configurare&lt;/strong&gt;. Lo puoi hostare su qualsiasi s.o. che sopporti &lt;strong&gt;docker&lt;/strong&gt;, l&amp;rsquo;installazione si completa in due comandi. Alternativamente è possibile anche l&amp;rsquo;installazione tramite node. &lt;br&gt;
+Al primo avvio Uptime Kuma ci farà creare un account e tramite una accessibile &lt;strong&gt;GUI&lt;/strong&gt; ci permetterà di impostare una serie di &lt;strong&gt;monitoraggi&lt;/strong&gt; che possono essere HTTP(s) / TCP / Ping / DNS Record / Push. &lt;br&gt;
+Uptime Kuma supporta una moltitudine di servizi di &lt;strong&gt;notifica&lt;/strong&gt; (dalle email a telegram) e ci permette anche di creare una magnifica &lt;strong&gt;status page&lt;/strong&gt; per tenere informati i nostri utenti dello stato dei nostri servizi. &lt;br&gt;
+Io personalmente lo uso per tenere traccia dello stato della mia rete domestica. Se pensi che &lt;strong&gt;Uptime Kuma&lt;/strong&gt; possa esserti utile puoi provarlo sulla &lt;a href=&#34;https://demo.uptime.kuma.pet&#34;&gt;demo online&lt;/a&gt; oppure scaricarlo dalla &lt;a href=&#34;https://github.com/louislam/uptime-kuma&#34;&gt;repo ufficiale&lt;/a&gt;.&lt;br&gt;
+Alla prossima!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bonsai, il browser senza distrazioni</title>
       <link>http://localhost:1313/blog/posts/04---bonsai-il-browser-senza-distrazioni/</link>
       <pubDate>Mon, 18 Oct 2021 07:07:07 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/04---bonsai-il-browser-senza-distrazioni/</guid>
-      <description>Bonsai è un browser web gratuito (ma non open source) che un obbiettivo: essere il browser perfetto per le ricerche. Ma che caratteristiche deve avere un prodotto del genere?
-Deve essere veloce, con scorciatoie da tastiera per compiere operazioni ed essere richiamato al volo Deve avere un&amp;rsquo;interfaccia semplice Deve permettermi di organizzare le schede Tutte queste caratteristiche sono presenti in Bonsai. Bonsai si apre con una semplice scorciatoia da tastiera (alt + spazio) e ci presenta subito un&amp;rsquo;interfaccia semplice e pulita.</description>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://bonsaibrowser.com&#34;&gt;Bonsai&lt;/a&gt;&lt;/strong&gt; è un browser web &lt;strong&gt;gratuito&lt;/strong&gt; (ma non open source) che un obbiettivo: essere il browser perfetto per le &lt;strong&gt;ricerche&lt;/strong&gt;. Ma che caratteristiche deve avere un prodotto del genere?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Deve essere &lt;strong&gt;veloce&lt;/strong&gt;, con scorciatoie da tastiera per compiere operazioni ed essere richiamato al volo&lt;/li&gt;
+&lt;li&gt;Deve avere &lt;strong&gt;un&amp;rsquo;interfaccia semplice&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Deve permettermi di &lt;strong&gt;organizzare le schede&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Tutte queste caratteristiche sono presenti in &lt;strong&gt;Bonsai&lt;/strong&gt;. Bonsai si apre con una semplice scorciatoia da tastiera (&lt;code&gt;alt + spazio&lt;/code&gt;) e ci presenta subito un&amp;rsquo;interfaccia semplice e pulita. Basta iniziare a digitare per effettuare una ricerca su google aprendo una nuova &lt;strong&gt;scheda&lt;/strong&gt;, da qui possiamo navigare tranquillamente su internet ed inserirla in un &lt;em&gt;workspace&lt;/em&gt;.
+Sulla schermata principale troviamo tutte le schede organizzare per sito, possiamo avere più schede di uno stesso sito (ad esempio google) organizzate una sopra l&amp;rsquo;altra.
+Le schede possono essere inserite nei &lt;em&gt;workspace&lt;/em&gt; che non sono altro che una specie di &lt;strong&gt;diagrammi&lt;/strong&gt; che ci permettono di organizzare le schede per varie aree tematiche. &lt;br&gt;
+Dal pulsante in basso a destra possiamo &lt;strong&gt;personalizzare&lt;/strong&gt; opzioni e scorciatoie da tastiera.
+&lt;a href=&#34;https://bonsaibrowser.com&#34;&gt;Bonsai&lt;/a&gt; è disponibile per mac, windows e linux, si vede che è un prodotto ancora in fase di sviluppo, ma lo considero valido e promettente.
+&lt;a href=&#34;https://bonsaibrowser.com&#34;&gt;Qua&lt;/a&gt; trovi il sito web con tutti i download.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Syncthing</title>
       <link>http://localhost:1313/blog/posts/03---syncthing/</link>
       <pubDate>Sat, 16 Oct 2021 07:07:07 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/03---syncthing/</guid>
-      <description>La soluzione definitiva per sincronizzare i tuoi file Syncthing è un software open source che ti permette di creare delle cartelle sincronizzate tra più dispositivi. E&amp;rsquo; scritto in go ed è ovviamente open source. Presenta una serie di punti di forza, tra cui:
-Sincronizzazione peer-to-peer: questo vuol dire che non hai bisogno di nessun server centrale, bastano 2 o più dispositivi dove sincronizzare la tua cartella. Questo vuol dire che i file sono solo sui tuoi dispositivi Criptografia: come descritto sul loro sito tutti i file sono criptografati prima di essere mandati su internet per la sincronizzazione.</description>
+      <description>&lt;h2 id=&#34;la-soluzione-definitiva-per-sincronizzare-i-tuoi-file&#34;&gt;La soluzione definitiva per sincronizzare i tuoi file&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://syncthing.net/&#34;&gt;Syncthing&lt;/a&gt; è un software open source che ti permette di creare delle cartelle &lt;strong&gt;sincronizzate&lt;/strong&gt; tra più dispositivi.
+E&amp;rsquo; scritto in go ed è ovviamente &lt;strong&gt;open source&lt;/strong&gt;. Presenta una serie di punti di forza, tra cui:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sincronizzazione peer-to-peer:&lt;/strong&gt; questo vuol dire che non hai bisogno di nessun server centrale, bastano 2 o più dispositivi dove sincronizzare la tua cartella. Questo vuol dire che i file sono solo &lt;strong&gt;sui tuoi dispositivi&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Criptografia:&lt;/strong&gt; come descritto sul &lt;a href=&#34;https://syncthing.net/security/&#34;&gt;loro sito&lt;/a&gt; tutti i file sono criptografati prima di essere mandati su internet per la sincronizzazione.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Semplice da usare:&lt;/strong&gt; Syncthing ha una GUI web che permette di configurare il tutto semplicemente.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Può essere &lt;strong&gt;installato in vari modi&lt;/strong&gt;, esistono sia applicazioni per windows e macOS, sia app per android (quella per ios è in &lt;a href=&#34;https://forum.syncthing.net/t/isyncthing-ios-client-for-syncthing-now-in-beta/15815&#34;&gt;fase di sviluppo&lt;/a&gt;) sia gli eseguibili per tutti i sistemi operativi.&lt;/p&gt;</description>
     </item>
     <item>
       <title>MacOS for dummies</title>
       <link>http://localhost:1313/blog/posts/02--macos-for-dummies/</link>
       <pubDate>Fri, 15 Oct 2021 07:07:07 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/02--macos-for-dummies/</guid>
-      <description>Ovvero, come rendere MacOS usabile Ciao, in questo breve articolo voglio consigliarti alcune della app che trovo essenziali sul mio MackBook pro 13 pollici con processore M1 del 2020. Premetto che molte delle app che elencherò sono open source perchè come tutti sappiamo, libero è meglio!
-Un po&amp;rsquo; di ordine! La prima app che ti voglio consigliare è Rectangle, un widows manager che ci permette di gestire le nostre mille finestre sia tramite le comode scorciatoie da tastiera sia con le così dette snap areas che non fanno altro che &amp;ldquo;copiare&amp;rdquo; il comportamento delle finestre di windows.</description>
+      <description>&lt;h2 id=&#34;ovvero-come-rendere-macos-usabile&#34;&gt;Ovvero, come rendere MacOS usabile&lt;/h2&gt;
+&lt;p&gt;Ciao, in questo breve articolo voglio consigliarti alcune della app che trovo essenziali sul mio MackBook pro 13 pollici con processore M1 del 2020.
+Premetto che molte delle app che elencherò sono &lt;strong&gt;open source&lt;/strong&gt; perchè come tutti sappiamo, libero è meglio!&lt;/p&gt;
+&lt;h3 id=&#34;un-po-di-ordine&#34;&gt;Un po&amp;rsquo; di ordine!&lt;/h3&gt;
+&lt;p&gt;La prima app che ti voglio consigliare è &lt;a href=&#34;https://rectangleapp.com&#34;&gt;Rectangle&lt;/a&gt;, un widows manager che ci permette di gestire le nostre mille finestre sia tramite le comode &lt;strong&gt;scorciatoie da tastiera&lt;/strong&gt; sia con le così dette &lt;strong&gt;&lt;em&gt;snap areas&lt;/em&gt;&lt;/strong&gt; che non fanno altro che &amp;ldquo;copiare&amp;rdquo; il comportamento delle finestre di windows.
+Il problema è molto semplice: MacOS non permette di lavorare con &lt;strong&gt;due o più app affiancate&lt;/strong&gt;, o meglio &lt;strong&gt;non comodamente&lt;/strong&gt;; invece con rectangle possiamo agilmente affiancare tutte le nostre applicazioni!
+L&amp;rsquo;app offre un alto livello di personalizzazione: possiamo modificare le scorciatoie da testiera ed una serie di comportamenti.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Come ho creato il mio portfolio</title>
       <link>http://localhost:1313/blog/posts/01---come-ho-creato-questo-sito/</link>
       <pubDate>Thu, 14 Oct 2021 07:07:07 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/01---come-ho-creato-questo-sito/</guid>
-      <description>L&amp;rsquo;idea Ho preso inspirazione dal sito del podcast pressappoco di Riccardo Palombo, tuttavia il sito è stato sviluppato con tecnologie diverse, e sopratutto con un utilizzo intelligente ed innovativo di github
-Lo stile Il sito su desktop è strutturato come una pergamena, dove in successione dall&amp;rsquo;ultimo al primo troverai tutti i miei articoli. Sulla sinistra è presente una sezione fissa con le mie info ed una breve presentazione.
-Su mobile invece il design è orientato verso una esperienza più user-friendly possibile per non sacrificare l&amp;rsquo;usabilità.</description>
+      <description>&lt;h2 id=&#34;lidea&#34;&gt;L&amp;rsquo;idea&lt;/h2&gt;
+&lt;p&gt;Ho preso inspirazione dal sito del podcast &lt;a href=&#34;https://pressappoco.it&#34;&gt;pressappoco&lt;/a&gt; di &lt;strong&gt;Riccardo Palombo&lt;/strong&gt;, tuttavia il sito è stato sviluppato con tecnologie diverse, e sopratutto con un utilizzo intelligente ed innovativo di &lt;strong&gt;github&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;lo-stile&#34;&gt;Lo stile&lt;/h2&gt;
+&lt;p&gt;Il sito &lt;strong&gt;su desktop&lt;/strong&gt; è strutturato come una pergamena, dove in successione &lt;strong&gt;dall&amp;rsquo;ultimo al primo&lt;/strong&gt; troverai tutti i miei articoli. Sulla sinistra è presente una sezione fissa con le mie info ed una breve presentazione.&lt;/p&gt;
+&lt;p&gt;Su &lt;strong&gt;mobile&lt;/strong&gt; invece il design è orientato verso una esperienza più user-friendly possibile per non sacrificare l&amp;rsquo;usabilità.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
