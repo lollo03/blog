@@ -47,7 +47,7 @@ Sembrava tutto pronto, finché il mercoledì prima dell'evento non abbiamo ricev
 
 Questa notizia ci ha messo nelle condizioni di doverci muovere velocemente: abbiamo scelto di utilizzare il software Open Source [pretix](https://pretix.eu/) installato sui server del POuL. Il software ha permesso a più di **390** persone di registrarsi all'evento in modo semplice, veloce e sicuro.
 
-Un altro effetto di questa soluzione è che per la prima volta abbiamo potuto stimare con più precisione le presenze: a fronte di 390 iscrizioni, i partecipanti sono stati più di **350**. Non male per un evento che si è svolto in una giornata nella quale Milano era blindata per la paura di manifestazioni che avrebbero potuto degenerare.
+Un altro effetto di questa soluzione è che per la prima volta abbiamo potuto stimare con più precisione le presenze: a fronte di 390 iscrizioni, i partecipanti sono stati più di **300**. Non male per un evento che si è svolto in una giornata nella quale Milano era blindata per la paura di manifestazioni che avrebbero potuto degenerare.
 
 Il LD, nonostante questa limitazione, si è svolto regolarmente e senza ulteriori complicazioni. In particolare, hanno funzionato bene il Trifoglio, il facchinaggio e pretix, mentre i walkie-talkie e tutti i volontari sono stati fondamentali.
 
